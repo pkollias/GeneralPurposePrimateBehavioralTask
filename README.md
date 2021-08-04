@@ -1,7 +1,7 @@
 # GeneralPurposePrimateBehavioralTask
 
 Run a single session by running:
->>> function [ varargout ] = RunSession ( task , animal )
+> function [ varargout ] = RunSession ( task , animal )
 on command terminal. This will run an experimental session and will return the animal performance, task cache and output files.
 Debugging mode is enabled at the end of every trial. You can correct the variables and resume running allowing smooth animal training.
 
