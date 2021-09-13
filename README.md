@@ -11,8 +11,6 @@ Debugging mode is enabled at the end of every trial. You can correct the variabl
 The task files are set for the 'Gating' task.
 The main task structure assumes a series of trials format. In every trial there is a sequence of events defined as screen changes and a series of behavioral events (motor output, eye tracking, voice commands etc). Every trial yields a stop condition code and optionally triggers a reward.
 
-![Uploading MrPiggy_180528_00_bhv_ERROR.jpeg…]()
-
 TO BE DOCUMENTED:
 Robust reward scheduling
 Probabilistic vs deterministic programming of condition sequencing
