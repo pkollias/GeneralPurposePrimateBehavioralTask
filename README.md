@@ -37,11 +37,12 @@ An experimental session consists of an initialization of these structures and a 
 Trials:
 A trial is operationalized as a sequence of several stages, where each stage is defined as a single screen configuration. For example in gating task a trial is a sequence of variable length where a cue and then a random number of stimuli appear with delays in between. Each of these is defined as a separate stage. Stages can be associated with expected or required behavioral actions (for now coded, joystick hold/release, fixation hold/release, saccade acquire). TrialStagesExecute codes for that sequence of stages.
 
-Generally each stage has a template of
-a. initialize code params related to stage
-b. load visual stimuli using ObjectListAdd and visualize using ObjectListDisplay
-c. initiliaze behavioral action expectations and timings and wait for behavioral triggers
-d. evaluate behavioral actions
+Generally each stage has a free form but the following is a good template
+1. initilize relevant code params
+2. load visual stimuli using ObjectListAdd and visualize using ObjectListDisplay
+3. initiliaze behavioral action expectations and timings and wait for behavioral triggers
+4. evaluate behavioral actions
+5. housekeeping of relevant code params
 
 TO BE DOCUMENTED:
 Robust reward scheduling
