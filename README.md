@@ -4,12 +4,14 @@ Code for running cognitive behavioral experiments (specialized for non-human pri
 You can create a single session specialized to a specific task by running the command
 > function [ varargout ] = RunSession ( task , animal )
 
-on command terminal. This willreturn the animal performance, task cache and output files, when the session is completed.
+on command terminal. This will return the animal performance, task cache and output files, when the session is completed.
 
 Debugging mode is enabled at the end of every trial. You can correct the variables and resume running allowing smooth animal training.
 
-The task is toggled here to be 'Gating'.
-The main task structure assumes a series of trials format. In every trial there is a sequence of events defined as screen changes and a series of behavioral events (motor output, eye tracking, voice commands etc). Every t![Uploading MrPiggy_180528_00_bhv_ERROR.jpeg…]()rial yields a stop condition code and optionally triggers a reward.
+The task files are set for the 'Gating' task.
+The main task structure assumes a series of trials format. In every trial there is a sequence of events defined as screen changes and a series of behavioral events (motor output, eye tracking, voice commands etc). Every trial yields a stop condition code and optionally triggers a reward.
+
+![Uploading MrPiggy_180528_00_bhv_ERROR.jpeg…]()
 
 TO BE DOCUMENTED:
 Robust reward scheduling
